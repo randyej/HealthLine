@@ -49,6 +49,12 @@ class App extends Component {
     }, 4000);
   }
 
+  componentWillUnmount() {
+    if(this.intervalId) {
+      clearInterval(this.intervalId);
+    }
+  }
+
   onOrderChange(event) {
     this.props.store.dispatch({
       type: 'GET_IMAGES',
