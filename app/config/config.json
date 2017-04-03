@@ -1,0 +1,8 @@
+{
+  "config": {
+    "pixabayApi": {
+      "apiKey": "4976543-b351b4a104fdb18285add5dd2",
+      "baseUrl": "https://pixabay.com/api/"
+    }
+  }
+}

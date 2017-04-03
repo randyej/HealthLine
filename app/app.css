@@ -1,0 +1,33 @@
+.theButtons {
+  padding-top: 25px;
+}
+
+.theButtons button {
+  margin-right: 5px;
+}
+
+.imgBox {
+  max-width: 1024px;
+}
+
+.imgBox img {
+  width: 100%;
+}
+
+.slideshow-enter {
+  opacity: 0.01;
+}
+
+.slideshow-enter.slideshow-enter-active {
+  opacity: 1;
+  transition: opacity 1500ms ease-in;
+}
+
+.slideshow-leave {
+  opacity: 0.01;
+}
+
+.slideshow-leave.slideshow-leave-active {
+  opacity: 0.01;
+  transition: opacity 0ms ease-in;
+}
